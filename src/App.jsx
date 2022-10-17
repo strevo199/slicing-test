@@ -23,7 +23,7 @@ const App = () => {
           <div className="flex justify-between credit-light  w-full">
             <div className="text-sm">
               {" "}
-              Barclaycard CashForwardTM World MasterCardTM
+              Barclaycard CashForward <sup className=" mb-10" style={{fontSize:'6px'}}>TM</sup> World MasterCard<sup style={{fontSize:'6px'}}>TM</sup>
             </div>
             <div className="text-xs">3,252 Reviews</div>
           </div>
