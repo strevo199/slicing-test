@@ -18,7 +18,7 @@ const App = () => {
 
       {/*  */}
       <div className="credit sm:p-10 bg-slate-100">
-        <div className="credit-header text-xl mb-4 sm:px-0 sm:py-0 py-2 px-10">
+        <div className="credit-header text-xl mb-4 sm:px-0 sm:py-0 py-5 px-10">
           Credit Opportunities With Good Approval Odds †
         </div>
         <div className=" p-10 bg-white flex flex-1 flex-col">
