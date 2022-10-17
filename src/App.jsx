@@ -49,7 +49,7 @@ const App = () => {
                   <div className="text-xs credit-light text-center flex-1">
                     <div>Approval </div>
                     <div>Odds †</div>
-                    <div className="status mt-2 px-2 py-0.5 font-bold text-white rounded-lg">
+                    <div className="status w-fit sm:w-full mx-auto sm:mx-0  mt-2 px-2 sm:px-0 py-0.5 font-bold text-white rounded-lg">
                       Very Good
                     </div>
                   </div>
