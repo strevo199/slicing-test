@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Light";
+  src: local("ProximaNova"), url("./assets/font/Proxima\ Nova\ Light.otf") format("truetype");
+}
+@font-face {
+  font-family: "Reg";
+  src: local("ProximaNova"), url("./assets/font/ProximaNova-Reg.otf") format("truetype");
+}
+@font-face {
+  font-family: "Semibold";
+  src: local("ProximaNova"), url("./assets/font/Proxima\ Nova\ Semibold.otf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Bold";
+  src: local("ProximaNova"), url("./assets/font/ProximaNova-Bold.otf") format("truetype");
+}
+@font-face {
+
+  font-family: "RegularItalic";
+  src: local("ProximaNova"), url("./assets/font/Proxima\ Nova\ Regular\ Italic.otf") format("truetype");
+}
+@font-face {
+  font-family: "SemiboldItalic";
+  src: local("ProximaNova"), url("./assets/font/Proxima\ Nova\ Semibold\ Italic.otf") format("truetype");
+}
+@font-face {
+  font-family: "Black";
+  src: local("ProximaNova"), url("./assets/font/ProximaNova-Black.otf") format("truetype");
+}
+@font-face {
+  font-family: "ThinIt";
+  src: local("ProximaNova"), url("./assets/font/ProximaNova-ThinIt.otf") format("truetype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  font-family: 'Reg';
+}
+
+.credit-header {
+  font-family: 'Bold';
+}
+.credit-light {
+  font-family: 'Light';
+}
+
+.status{
+  background: #59d8d1;
+  font-family: 'Semibold';
+}
+
+.showcase2 {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .showcase {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .showcase2 {
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
