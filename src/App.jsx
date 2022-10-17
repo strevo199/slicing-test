@@ -74,7 +74,7 @@ const App = () => {
                     <span style={{ color: "#9dd1fc" }}>show more</span>
                   </li>
                 </ul>
-                <button className=" bg-orange-500 sm:hidden text-white text-sm py-1 credit-header w-full mt-3 rounded-lg">
+                <button className=" bg-orange-500 sm:hidden text-white text-sm py-2 credit-header w-full mt-3 rounded-lg">
                   {" "}
                   Apply Now
                 </button>
